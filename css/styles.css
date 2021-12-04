@@ -19,6 +19,10 @@ body{
     background-color: var(--primary-text-color#212121);
     color:var (--primary-bg-color#F5F4FA)
 }
+.ul{ 
+    list-style: none;
+    padding: 0;
+    margin: 0;}
 
 *,*::before,*::after{ box-sizing: inherit;}
 /*Logo*/
@@ -36,18 +40,16 @@ body{
     color: #000000;
     }
     
-    ul{ 
-        list-style: none;
-    }
+  
     
     .menu-nav-list {
-    display: flex;  }
+    display: flex;
+    margin-left: 93px; }
 
-   
 
-    .menu-nav-list .item + .item {
-        margin-left: 50px;
-    }
+.menu-nav-list .item + .item {
+    margin-left: 50px;
+}
 
 
     /* Основной сайт*/
@@ -59,36 +61,35 @@ body{
         margin: auto;
     }
 
-    .menu-nav .menu-nav-title {
+    .menu-nav-list .menu-nav-title {
         display: block;
         padding-top: 32px;
-        padding-bottom: 32px;
-
-
+       
+       padding-bottom: 32px;
         font-weight:500;
         line-height:1.14;
         color:var(--primary-text-color);
         text-decoration: none;
     }
     
-    .menu-nav .menu-nav-title:hover,
-    .menu-nav .menu-nav-title:focus{
+    .menu-nav-list .menu-nav-title:hover,
+    .menu-nav-list .menu-nav-title:focus{
         color: var(--accent-color);
 
     }
+
     .nav-contact {
-    
-    
     font-style: 500;
     line-height:1.14;
     color: var(--title-text-color);
-    text-decoration: none;    }
+    text-decoration: none;  }
 
     .nav-contact:hover,
     .nav-contact:focus{
         color: var(--accent-color);}
 
-    .auth-contact {display:flex;}  
+    .auth-contact {display:flex;
+    margin-left: auto;}  
 
 
     .auth-contact .item + .item {
@@ -99,7 +100,8 @@ body{
 
 .main-nav{
     display:flex;
-    align-items: center;}
+    align-items: center;
+    justify-content: flex-start;}
 
 
 
