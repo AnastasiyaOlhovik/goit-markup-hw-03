@@ -58,7 +58,7 @@ body{
     /* Основной сайт*/
 
     .container {
-        width: 1230px;
+        width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
 
@@ -261,11 +261,36 @@ left: 215px;}
 
 
 /* СТИЛИ PORTFOLIO*/
-
+.container {
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;}
+        
+.page-header {
+display: flex;
+align-items: center;
+margin-top: 23px;}
 
 /*Site nav*/
 
+.site-nav {
+    display:flex;
+    margin-left: 93px;
+}
+
+.site-nav .item + .item{
+    margin-left:50px;
+}
+
+
 .site-nav .link {
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+
+
 font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 14px;
@@ -279,10 +304,12 @@ text-decoration: none;
 color:var(--accent-color); 
 }
 
-.contact-nav a{
+.contact-nav {
+display: flex;
+margin-left: auto; 
+
 font-family: Roboto, sans-serif;
 font-weight: 500;    
-font-weight:500;
 line-height: 1.14;
 letter-spacing: 0.02;
 text-decoration: none;
@@ -295,11 +322,17 @@ color:var(--title-text-color);
 color:var(--accent-color);      
 }
 
-
+.contact-nav .item + .item
+{margin-left: 50px;}
 
 
 /*Portfolio*/
+.filter-nav {
+    padding-top: 94px;
+    padding-bottom: 56px;
+    text-align: center;
 
+}
 .filter{
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -313,6 +346,10 @@ color: var(--primary-bg-color);
 background-color: var(--accent-color);
 }
 
+.filter-nav .filter + .filter{
+    padding-left: 8px;
+}
+
 
 
 .title {
@@ -320,11 +357,27 @@ font-weight:700;
 font-size: 18px;
 line-height:2;
 text-decoration:none;
+margin-top: 20px;
+margin-bottom: 4px;
 }
 
+.portfolio {
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-wrap: wrap;
+margin-bottom: 94px;}
 
+.element {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    
+   
+}
 .element-van {
     text-decoration: none;
+    flex-basis: calc(100% / 3);
+    margin-bottom: 30px;
 }
 .element .title{
     color: var(--primary-text-color);
@@ -336,7 +389,9 @@ font-weight: 400;
 font-size: 16px;
 line-height:1.87;
 color: var(--title-text-color);
-text-decoration: none;}
+text-decoration: none;
+margin-top: 0;
+margin-bottom: 20px;}
 
 
 
@@ -352,5 +407,6 @@ text-decoration: none;}
     letter-spacing:0.03em;
     text-decoration: none;
     font-style: normal;}
+    
     
     
