@@ -42,6 +42,11 @@ p{margin: 0;}
     color: #000000;
     }
     
+    .list{
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
     ul{ 
         list-style: none;
         margin: 0;
@@ -298,7 +303,6 @@ left: 215px;}
 /*линия портфолио*/
 
 .hed-portfolio{ 
-    
     border: 1px solid #ECECEC;
     border-width: 0px 0px 1px 0px;
     }
@@ -314,8 +318,7 @@ left: 215px;}
         
 .page-header {
 display: flex;
-align-items: center;
-margin-top: 23px;}
+align-items: center;}
 
 /*Site nav*/
 
@@ -333,8 +336,6 @@ margin-top: 23px;}
 display: block;
 padding-top: 32px;
 padding-bottom: 32px;
-
-
 font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 14px;
@@ -351,19 +352,15 @@ color:var(--accent-color);
 .contact-nav {
 display: flex;
 margin-left: auto; 
-
+s
 font-family: Roboto, sans-serif;
 font-weight: 500;    
 line-height: 1.14;
-letter-spacing: 0.02;
-text-decoration: none;
-color:var(--title-text-color);
 }
 
 
-.contact-nav:hover,
-.contact-nav:focus {
-color:var(--accent-color);      
+.contact-nav :hover,
+.contact-nav :focus {     
 }
 
 .contact-nav .item + .item
@@ -373,11 +370,12 @@ color:var(--accent-color);
 /*Portfolio*/
 .filter-nav {
     padding-top: 94px;
-    padding-bottom: 56px;
+    padding-bottom: 50px;
     text-align: center;
    
 }
 .filter{
+    font-weight: bold;
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -399,32 +397,27 @@ background-color: var(--accent-color);
 
 
 .title {
-font-weight:700;
+font-weight: 700;
 font-size: 18px;
-line-height:2;
-text-decoration:none;
+line-height: 2;
+text-decoration: none;
 margin-top: 20px;
 margin-bottom: 4px;
 }
 
 .portfolio {
+    
+    margin-left: -30px;
+    margin-top: -30px;
     padding: 0;
-    margin: 0;
     display:flex;
     flex-wrap: wrap;
-margin-bottom: 94px;}
+    list-style: none;}
 
 .element {
     margin-left: 30px;
-    margin-bottom: 30px;
-    
-   
-}
-.element-van {
-    text-decoration: none;
-    flex-basis: calc(100% / 3);
-    margin-bottom: 30px;
-}
+    margin-top: 30px;}
+
 .element .title{
     color: var(--primary-text-color);
 }
@@ -435,7 +428,7 @@ font-weight: 400;
 font-size: 16px;
 line-height:1.87;
 color: var(--title-text-color);
-text-decoration: none;
+text-decoration:none;
 margin-top: 0;
 margin-bottom: 20px;}
 
