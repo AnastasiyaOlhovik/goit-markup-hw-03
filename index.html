@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Document</title>
  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
- <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
  <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 
@@ -15,7 +15,9 @@
 
   <!--- Шапка сайта -->
  <header>
+   <div class="container">
      <nav class="menu-nav main-nav">
+
      <a href="./index.html" class="logo" lang="en">Web<span class="logo-second">Studio</span></a>
        <ul class="menu-nav-list">
             <li class="item"><a href="./studio.tml" class="menu-nav-title">Студия</a></li>
@@ -26,19 +28,24 @@
             <li class="item"><a href="mailto:info@devstudio.com" class="nav-contact">info@devstudio.com</a></li>
             <li class="item"><a href="tel:+380961111111" class="nav-contact">+380961111111</a></li>
            </ul>
-          </div>
+          </div>     
     </nav>
     
  </header>
  <main>
+
 <section class="hero">
-  <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+  
+  <h1 class="hero-title">Эффективные решения </br> для вашего бизнеса</h1>
+  <div class="container-button">
   <button type="button" class="button-header">Заказать услугу</button>
+  </div>
 </section>
 
 <!-- характеристики -->
-<div class="container">
+
 <section class="section">
+  <div class="container">
   <h2 style="display: none;"> Характеристики </h2>
    <ul class="featurest-list">
    <li class="item">
@@ -59,10 +66,12 @@
       <p class="feature-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 </li>
   </ul>
+</div>
 </section>
  
 <!-- Деятельность -->
 <section class="section-bg">
+  <div class="container">
  <h2 class="box-header"> Чем мы занимаемся</h2>
   <ul class="box-img">
    <li class="item">
@@ -76,37 +85,52 @@
 </div>
 
   <!-- Команда -->
+<div class="container">
+  <div class="containet-team">
   <section class="section-worker">
   <h2 class="team-header"> Наша команда </h2>
 <ul class="team-card">
     <li class="worker item"> <img src="./images/demynenko.jpg" alt="Фото Демьяненко" width="270">
+    
        <h3 class="team">Игорь Демьяненко</h3> 
       <p class="team-text"> Product Designer</p></li>
+    
     <li class="worker item"> <img src="./images/repina.jpg" alt="Фото Репина" width="270">
+     
       <h3 class="team"> Ольга Репина </h3> 
      <p class="team-text">Frontend Developer </p> </li>
+    
     <li class="worker item"> <img src="./images/tarasov.jpg" alt="Фото Тарасов" width="270">
+     
       <h3 class="team"> Николай Тарасов </h3> 
      <p class="team-text"> Marketing </p> </li>
+  
     <li class="worker item "> <img src="./images/ermakov.jpg" alt="Фото Ермаков" width="270">
+      
       <h3 class="team" > Михаил Ермаков </h3> 
      <p class="team-text"> UI Designer </p> </li>
   </ul>
-
-</section>
-</main>
 </div>
 
+</section>
+</div>
+</main>
+
 <footer>
+    <div class="container-footer">
+      <div class="container-address">
  <a href="./index.html" class="logo" lang="en">Web<span class="logo-second">Studio</span></a>
       <address>
         <ul class="contact">
-         <li> <a class="litter-contact" href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858">г. Киев, пр-т Леси Украинки, 26</a></li>
-        <li> <a class="litter-contact" href="mailto:info@example.com"> info@example.com </a></li>
-        <li> <a class="litter-contact" href="tel:+380991111111"> +38 099 111 11 11 </a></li>
+        <li> <a class="litter-contact  map" href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858">г. Киев, пр-т Леси Украинки, 26</a></li>
+       <li> <a class="litter-contact  time" href="mailto:info@example.com"> info@example.com </a></li>
+        <li> <a class="litter-contact time" href="tel:+380991111111"> +38 099 111 11 11 </a></li>
+      </div>
   </ul>
       </address>
-</footer>
+    </div>
+  </footer>
+
 
 </body>
 </html>
