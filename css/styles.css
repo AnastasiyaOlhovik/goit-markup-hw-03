@@ -29,6 +29,10 @@ p{margin: 0;}
 *,*::before,*::after{ box-sizing: inherit;}
 /*Logo*/
 
+
+.brd {border-bottom: 1px solid #ECECEC;}
+
+}
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -61,12 +65,10 @@ p{margin: 0;}
     
        }
     
-    .menu-nav-list .item + .item {
-            margin-left: 50px;
-        }
-    .auth-contact .item + .item {
-            margin-left: 50px;
-        }
+       .menu-nav-list .item + .item {
+        margin-left: 50px;
+    }
+  
 
     /* Основной сайт*/
 
@@ -84,7 +86,6 @@ p{margin: 0;}
     .menu-nav{
         margin-top: 32px;
         margin-bottom: 32px;
-        justify-content: space-between;
 }
    
     .menu-nav-title {
@@ -110,15 +111,16 @@ p{margin: 0;}
     .nav-contact:focus {
         color: var(--accent-color);}
 
-    .auth-contact {display:flex;
-    padding-left: 331px;
-    padding-right: 215px;
- }  
+        .auth-contact {
+            display:flex;
+            padding-left: 331px;
+            padding-right: 215px;
+         }   
 
 
-    .auth-contact .item + .item {
-        margin-left: 50px;
-    }    
+ .auth-contact .item + .item {
+    margin-left: 50px;
+}    
 
 /*Main-nav*/
 
@@ -309,9 +311,7 @@ left: 215px;}
 /*линия портфолио*/
 
 .hed-portfolio { 
-    margin: 0px;
-    border-bottom: 1px solid #ECECEC;
-    width: 1600px}
+    border-bottom: 1px solid #ECECEC;}
 
 
 
