@@ -10,9 +10,6 @@
     --primary-bg-color:#F5F4FA;
 }
 
-
-
-
 body{ 
     font-family: Roboto, sans-serif;
     font-size:14px;
@@ -27,7 +24,12 @@ p{margin: 0;}
        margin: 0;}
 
 *,*::before,*::after{ box-sizing: inherit;}
-/*Logo*/
+
+
+
+
+
+/*Логотип*/
 
 
 .brd {border-bottom: 1px solid #ECECEC;}
@@ -38,12 +40,14 @@ p{margin: 0;}
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var( --accent-color);
+    color: var(--accent-color);
     text-decoration: none;
+    font-weight: bold;
     }
     
     .logo-second {
     color: #000000;
+    font-weight: bold;
     }
     
     .list{
@@ -62,10 +66,10 @@ p{margin: 0;}
         display: flex;  }
     
     .menu-nav.logo{padding-left: 215px;
-    
+
        }
-    
-       .menu-nav-list .item + .item {
+
+    .menu-nav-list .item + .item {
         margin-left: 50px;
     }
   
@@ -85,8 +89,7 @@ p{margin: 0;}
 
     .menu-nav{
         margin-top: 32px;
-        margin-bottom: 32px;
-}
+        margin-bottom: 32px;}
    
     .menu-nav-title {
         display: block;
@@ -95,6 +98,7 @@ p{margin: 0;}
         color:var(--primary-text-color);
         text-decoration: none;
     }
+    
     
     .menu-nav-title:hover,
     .menu-nav-title:focus {
@@ -111,7 +115,7 @@ p{margin: 0;}
     .nav-contact:focus {
         color: var(--accent-color);}
 
-        .auth-contact {
+    .auth-contact {
             display:flex;
             padding-left: 331px;
             padding-right: 215px;
