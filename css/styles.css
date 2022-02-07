@@ -10,8 +10,8 @@
     --primary-bg-color:#F5F4FA;
 }
 
-body{ 
-    font-family: Roboto, sans-serif;
+body { 
+    font-family:Roboto,sans-serif;
     font-size:14px;
     background-color: var(--primary-text-color#212121);
     color:var (--primary-bg-color#F5F4FA)
@@ -24,10 +24,6 @@ p{margin: 0;}
        margin: 0;}
 
 *,*::before,*::after{ box-sizing: inherit;}
-
-
-
-
 
 /*Логотип*/
 
@@ -67,15 +63,16 @@ p{margin: 0;}
         margin-left: 93px;
         display: flex;  }
     
-  
 
     .menu-nav-list .item + .item {
-        margin-left: 50px;
-    }
-    .page-header:hover,
-    .page-header:focus {
-    color: var(--accent-color);
-    }
+            margin-left: 50px;
+        }
+    
+        .page-header :hover,
+        .page-header :focus {
+        color: var(--accent-color);
+        }
+   
 
     /* Основной сайт*/
 
@@ -90,9 +87,7 @@ p{margin: 0;}
 
     }
 
-    .menu-nav{
-        margin-top: 32px;
-        margin-bottom: 32px;}
+ 
    
     .menu-nav-title {
         display: block;
@@ -100,11 +95,13 @@ p{margin: 0;}
         line-height:1.14;
         color:var(--primary-text-color);
         text-decoration: none;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
     
     
-    .menu-nav-title:hover,
-    .menu-nav-title:focus {
+    .menu-nav-list :hover,
+    .menu-nav-list :focus {
     color: var(--accent-color);
     }
 
@@ -114,8 +111,8 @@ p{margin: 0;}
     color: var(--title-text-color);
     text-decoration: none;    }
 
-    .nav-contact:hover,
-    .nav-contact:focus {
+    .nav-contact :hover,
+    .nav-contact :focus {
         color: var(--accent-color);}
 
     
@@ -366,6 +363,7 @@ color:var(--accent-color);
 .contact-nav {
     display: flex;
     margin-left: auto; 
+
     font-family: Roboto, sans-serif;
     font-weight: 500;    
     line-height: 1.14;}
