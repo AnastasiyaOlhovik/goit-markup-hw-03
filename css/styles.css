@@ -193,7 +193,7 @@ justify-content: space-between;}
 }
 
 .feature-text{
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-style: 400;
     letter-spacing: 0.03em;
@@ -279,15 +279,18 @@ height: 368px;
 }
 
 
-.map{color: #FFFFFF;
-   margin-top: 9px;
-   margin-bottom: 0px;}
+.map{color: #FFFFFF;}
+
 .name {color: #FFFFFF;
     margin-top: 9px;
     margin-bottom: 0px;}
 
-.time {color: rgba(255, 255, 255, 0.6);}
-
+.time {
+    
+    padding-top: 2px;
+    margin-top: 9px;
+    color: rgba(255, 255, 255, 0.6);}
+   
 
 /*линия портфолио*/
 
@@ -367,9 +370,10 @@ color: var(--accent-color)
 
 /*Portfolio*/
 .filter-nav {
-    padding-top: 94px;
+    margin-top: 87px;
     padding-bottom: 50px;
     text-align: center;
+
    
 }
 
@@ -406,14 +410,12 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 text-decoration: none;
-margin-top: 20px;
 margin-bottom: 4px;
 }
 
 .portfolio {
     margin-left: -30px;
     margin-top: -30px;
-    margin-bottom: 94px;
     padding: 0;
     display:flex;
     flex-wrap: wrap;
@@ -423,8 +425,10 @@ margin-bottom: 4px;
     margin-left: 30px;
     margin-top: 30px;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+    border-left: 30px;
+    border-right: 30px;
+    border-bottom: 30px;}
 
 .element .title{
     color: var(--primary-text-color);
@@ -437,8 +441,7 @@ font-size: 16px;
 line-height:1.87;
 color: var(--title-text-color);
 text-decoration:none;
-margin-top: 0;
-margin-bottom: 20px;}
+margin-top: 0;}
 
 
 
@@ -447,11 +450,15 @@ margin-bottom: 20px;}
 }
 
 .box-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 24px;
 }
 /*Footer*/
 
 .litter-contact{
+    font-size: 14px;
+    letter-spacing: 0.03em;
     line-height: 1.70;
     letter-spacing:0.03em;
     text-decoration: none;
