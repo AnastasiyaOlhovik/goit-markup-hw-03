@@ -31,7 +31,7 @@ p{margin: 0px;
 
 *,*::before,*::after{ box-sizing: inherit;}
 
-.zero {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
