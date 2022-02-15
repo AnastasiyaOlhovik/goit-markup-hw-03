@@ -16,13 +16,7 @@ body {
     background-color: var(--primary-text-color#212121);
     color:var (--primary-bg-color#F5F4FA)
 }
-h1
-h2
-h3
-h4
-h5
-h6
-p{margin: 0px;
+h1,h2,h3,h4,h5, h6 ,p {margin: 0px;
   padding: 0px;}
 
 .list{ list-style: none;
@@ -174,7 +168,6 @@ text-align: center;}
     padding-top: 0px;}
 
 .section {
-    display: flex;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -269,12 +262,9 @@ img{
 .team-header{
     margin: 0;
     font-size: 36px;
-    text-align: center;
-    padding-top: 94px;
-    padding-bottom: 0px;}
+    text-align: center;}
 
-.section-worker {
-    padding-bottom: 94px;
+.cooper {
     background-color: var(--primary-bg-color);}
 
 .worker{
@@ -296,8 +286,7 @@ width: 270px;
 }
 
 
-.map{
-    border-bottom: 9px;
+.map {
     color: #FFFFFF;}
 
 .name {color: #FFFFFF;
@@ -306,7 +295,7 @@ width: 270px;
 
 
 .time {
-    margin-bottom: 9px;
+    border-top: 9px;
     color: rgba(255, 255, 255, 0.6);}
    
 
@@ -334,8 +323,6 @@ align-items: center;
 
 /*Site nav*/
 
-.box { margin-top: 94px;
-       margin-bottom: 94px; }
 .site-nav {
     display:flex;
     margin-left: 93px;
@@ -428,7 +415,6 @@ a { text-decoration: none;}
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
-text-decoration: none;
 margin-bottom: 4px;
 }
 
@@ -468,18 +454,26 @@ margin-top: 0;}
 }
 
 .box-bottom {
-    border-top: 20px;
+    border-right: 24px;
+    border-left: 24px;
     border-bottom: 20px;
     padding-left: 24px;
-}
-/*Footer*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;}
+    
+    
+    /*Footer*/
 
 .litter-contact{
-    font-size: 14px;
-    line-height: 2.5;
+    line-height: 24px;
     letter-spacing:0.03em;
     text-decoration: none;
     font-style: normal;}
     
+   
+ 
+    
+    .stroka {margin-bottom: 9px;}
     
     
