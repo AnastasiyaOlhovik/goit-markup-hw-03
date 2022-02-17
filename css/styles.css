@@ -305,6 +305,8 @@ width: 270px;
     border-bottom: 1px solid #ECECEC;
 }
 
+.nav {display: flex;
+      margin-left: 93px;}
 
 
 /* СТИЛИ PORTFOLIO*/
@@ -316,17 +318,14 @@ width: 270px;
         margin-right: auto;}
         
 .page-header {
-display: flex;
-align-items: center;
-
-}
+display: flex;}
 
 /*Site nav*/
 
 .site-nav {
     display:flex;
     margin-left: 93px;
-}
+    align-items: center;}
 
 .site-nav .item + .item{
     margin-left:50px;
@@ -463,6 +462,7 @@ margin-top: 0;}
     /*Footer*/
 
 .litter-contact{
+    display: block;
     margin-bottom: 9px;
     line-height: 24px;
     letter-spacing:0.03em;
